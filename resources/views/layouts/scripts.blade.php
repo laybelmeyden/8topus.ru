@@ -1,4 +1,4 @@
-<script type="text/javascript" src="assets/js/quke.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 <script type="text/javascript" src="assets/js/departure-board.js"></script>
 <script>
 		

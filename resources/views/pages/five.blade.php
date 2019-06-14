@@ -1,11 +1,19 @@
 @extends('layouts.master')
+
 @section('content')
+<style>
+
+.tp_powered_by{
+  opacity:0;
+}
+</style>
+<div class="root">
 <link rel="stylesheet" href="assets/css/main.css">
 <div class="container">
   <section class="section knowledge-base">
-    <section class="categories blocks">
-      <div class="blocks_item_main"></div>
-      <p class="main_text_one">Туристическая компания 8TOPUS</p>
+    <section class="categories blocks" style="    padding-bottom: 80px;">
+      <div class="blocks_item_main" style="background-image: url(https://cdn2.tu-tu.ru/image/source/1/5e9de8cfa39b7dccb7fd18d8fb0371e2/);"></div>
+      <p class="main_text_one">Ж/д билеты от компании 8TOPUS</p>
       <ul class="blocks-list">
             <li class="blocks-item">
               <a href="/one" class="blocks-item-link">
@@ -59,24 +67,19 @@
             </li>
       </ul>
     </section>
-    <section id="about">
-        <p class="about_text">О НАС</p>
-        <div class="flex_about_item">
-        <div>
-        <img src="assets/img/service.png">
-        </div>
-        <div>
-        <p class="about_text_two">
-        Туристическая компания 8TOPUS - это инновационная компания, опережающая время как по качеству и ассортименту предлагаемых услуг, так и по соблюдению норм безопасности, предоставляя при этом самые выгодные цены своим клиентам.
-<br><br>
-8TOPUS - это онлайн продажа и бронирование как готовых туристических пакетов, так и различных услуг: экскурсии, автопрокат, отели и многое другое.
-<br><br>
-Так же мы предлагаем стать нашими партнерами: наша франшиза эта Ваша собственная прибыльная IT компания в вашем городе!
-        </p>
-        </div>
-        </div>
-    </section>
-  </section>
+
+<section style="
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;">
+<div class="container">
+<div>
+<script src="https://c45.travelpayouts.com/content?promo_id=1809&shmarker=219987" charset="utf-8" async="true"></script>
+</div>
+</div>
+</section>
+
 </div>
 
 @endsection

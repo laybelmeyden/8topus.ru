@@ -1,17 +1,7 @@
 @font-face {
-    font-family: numbers;
-    src: url(/landings/fonts/numbers/numbers.eot);
-    src: url(/landings/fonts/numbers/numbers.eot?#iefix) format('embedded-opentype'), url(/landings/fonts/numbers/numbers.woff2) format('woff2'), url(/landings/fonts/numbers/numbers.woff) format('woff'), url(/landings/fonts/numbers/numbers.ttf) format('truetype'), url(/landings/fonts/numbers/numbers.otf) format('opentype'), url(/landings/fonts/numbers/numbers.svg?#svgnumbers) format('svg');
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: numbersBold;
-    src: url(/landings/fonts/numbers/numbers.eot);
-    src: url(/landings/fonts/numbers/numbers.eot?#iefix) format('embedded-opentype'), url(/landings/fonts/numbers/numbers.woff2) format('woff2'), url(/landings/fonts/numbers/numbers.woff) format('woff'), url(/landings/fonts/numbers/numbers.ttf) format('truetype'), url(/landings/fonts/numbers/numbers.otf) format('opentype'), url(/landings/fonts/numbers/numbers.svg?#svgnumbersBold) format('svg');
-    font-weight: 700;
-    font-style: normal
+    font-family: 'Roboto';
+    src: url(Roboto.ttf);
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 .money-formatted.numbers {
@@ -517,6 +507,14 @@ div#layout_panels {
     font-weight: 400
 }
 
+#mobile-menu {
+    background: black;
+}
+
+a {
+    cursor: pointer;
+}
+
 #footer .spreader,
 .layoutHeader .spreader {
     width: 960px
@@ -526,8 +524,8 @@ div#layout_panels {
     font-size: 13px;
     letter-spacing: .4px;
     text-transform: uppercase;
-    background: #3a3a3a;
-    color: #fff
+    background: white;
+    color: black;
 }
 
 .layoutHeader a {
@@ -549,16 +547,10 @@ div#layout_panels {
     top: 0;
     bottom: 0;
     z-index: 7;
-    width: 48px;
+    width: 100%;
     height: 48px;
     margin: auto;
     left: 0
-}
-
-.layoutHeader .logo img {
-    display: block;
-    width: 48px;
-    height: 48px
 }
 
 .layoutHeader .mainMenu {
@@ -571,7 +563,8 @@ div#layout_panels {
     left: 60px;
     right: 170px;
     display: flex;
-    opacity: 0
+    opacity: 0;
+    justify-content: center;
 }
 
 .layoutHeader #menu-overlay {
@@ -926,7 +919,7 @@ div#layout_panels {
 
 @media screen and (max-width:1000px) {
     .ismob {
-        display: block
+        display: block !important;
     }
 }
 
@@ -1013,9 +1006,12 @@ div#layout_panels {
         top: 11px;
         bottom: auto;
         z-index: 7;
-        width: 48px;
+        width: 100%;
         height: 48px;
         margin: auto
+    }
+    .ismob {
+        display: block!important;
     }
     .layoutHeader .profile {
         position: absolute;
