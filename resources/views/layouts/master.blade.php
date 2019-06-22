@@ -19,9 +19,9 @@
   <meta property="og:url" content="ccskm" />
   <meta property="og:site_name" content="AIR" />
 
-  
-  <link rel="stylesheet" href="assets/css/header.min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/index.css" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
   <link rel="stylesheet" href="assets/css/departure-board.css" type="text/css" />
   
  

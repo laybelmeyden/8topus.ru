@@ -42,4 +42,16 @@ class MainController extends Controller
     {
       return view('welcome');
     }
+    public function faq()
+    {
+      return view('pages.faq');
+    }
+    public function fransh()
+    {
+      return view('pages.fransh');
+    }
+    public function contact()
+    {
+      return view('pages.contact');
+    }
 }

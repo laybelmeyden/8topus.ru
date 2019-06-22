@@ -20,6 +20,10 @@ Route::get('/five', 'MainController@five');
 Route::get('/six', 'MainController@six');
 Route::get('/seven', 'MainController@seven');
 
+Route::get('/faq', 'MainController@faq');
+Route::get('/fransh', 'MainController@fransh');
+Route::get('/contact', 'MainController@contact');
+
 Route::get('/wel', 'MainController@wel');
 
 Route::group(['prefix' => 'admin'], function () {

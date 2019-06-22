@@ -1,19 +1,19 @@
-<div id="layout_panels">
-    <header class="layoutHeader">
-    <div class="spreader">
-        <div id="mobile-menu" class="burger-btn ismob">
-            <span class="nav__menubtn__stroke"></span>
-            <span class="nav__menubtn__stroke"></span>
-            <span class="nav__menubtn__stroke"></span>
-        </div>
-        <a href="/" class="logo"><img src="assets/img/Logotip_2.png" style="    height: 40px;"></a>
-        <label class="mainMenuLabel"></label>
-        <!-- <nav class="mainMenu hideMenu" style="display: flex; opacity: 1;">
-            <a class="menu-item" href="">О Нас</a>
-            <label id="menu-toggle" class="menu-item"><img src="/landings/img/svg/ellipses.svg" alt=""></label>
-        </nav> -->
-</header>
+<nav>
+    <div class="container">
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo"><img src="assets/img/Logotip_2.png" alt="" class="logo_main"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><img src="https://www.opportunityclinic.org/wp-content/uploads/2017/10/menu-icon.png" alt="" class="nav_burger"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/fransh">Франшиза</a></li>
+        <li><a href="/contact">Контакты</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
 
-
-
-  </div>
+  <ul class="sidenav" id="mobile-demo">
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/fransh">Франшиза</a></li>
+        <li><a href="/contact">Контакты</a></li>
+  </ul>
