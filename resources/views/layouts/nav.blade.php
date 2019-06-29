@@ -7,6 +7,33 @@
         <li><a href="/faq">FAQ</a></li>
         <li><a href="/fransh">Франшиза</a></li>
         <li><a href="/contact">Контакты</a></li>
+        <li> <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger pulse" style="     background-color: #d1a500;   color: white;" href="#modal1">Написать нам</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <p style="font-size:18px; text-align:center; color:black;">Форма обратной связи</p>
+      <form action="/mainmess" method="POST">
+      {{ csrf_field() }}
+    <div class="col s12">
+      <input type="text" name="name_text" placeholder="Введите Ваше имя" required>
+    </div>
+    <br>
+    <div class="col s12">
+      <input type="email" name="email" placeholder="Введите Вашу почту" required>
+    </div>
+    <br>
+    <div class="col s12">
+      <textarea name="" id="" cols="30" rows="10" name="textarea" placeholder="Введите текст Вашего обращения" required></textarea>
+    </div>
+    <div class="col s12" style="text-align:right;">
+    <button class="btn" type="submit">Отправить</button>
+    </div>
+    </form>
+    </div>
+    
+  </div></li>
       </ul>
     </div>
     </div>

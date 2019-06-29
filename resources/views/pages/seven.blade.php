@@ -1,87 +1,125 @@
 @extends('layouts.master')
 
 @section('content')
-<style>
-
-.tp_powered_by{
-  width: 10%;
-}
-</style>
-<div class="root">
-<link rel="stylesheet" href="assets/css/main.css">
+<div class="parallax-head" style="background-image: url(https://psv4.userapi.com/c848136/u3216951/docs/d2/fec6c3673c56/shutterstock_129063581.jpg?extra=NklAkF2FYcHY386YqkJxJxZqjzjZqKaw6wFPJHg5RlIXIdfPrAuGTggTzy817Z3xvA6XuYJBYzeB2QIhel5XegQRN5CwULzjqwuEQVplYbZNvUWD6656jlOWlNqRC3pm-piiz4kXjyP6Wk8W3IpklHY);">
+      <div class="container container_para">
+      <div class="row">
+      <p class="main_text_one">ВИЗЫ ОТ КОМПАНИИ 8TOPUS</p> 
+      <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/one">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+          <p>Отели</p>
+          <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/two">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Прокат авто</p>
+        <i class="fas fa-car fnt40"></i>
+        </div>
+        </a>
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/four">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Аренда яхт</p>
+        <i class="fas fa-ship fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item" style="">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
+        </div>
+        </a>
+      </div>
+      <div class="grid-container-2fr">
+      <a href="/six">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
+        </div>
+        </a>
+        <a href="/seven">
+        <div class="main_nav_item" style="border-right: 1px solid white; color: #d1a500;">
+        <p>Визы</p>
+        <i class="fas fa-id-card fnt40"></i>
+        </div>
+        </a>
+        <a href="/eat">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Круизы</p>
+        <i class="fas fa-anchor fnt40"></i>
+        </div>
+        </a>
+        <a href="/eat2">
+        <div class="main_nav_item">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
+      </div>
+      
+      </div>
+      </div>
+</div>
+<script src="http://c18.travelpayouts.com/content?promo_id=1492&shmarker=219987" charset="utf-8" async></script>
 <div class="container">
-  <section class="section knowledge-base">
-    <section class="categories blocks" style="    padding-bottom: 80px;">
-      <div class="blocks_item_main" style="background-image: url(http://bigasia.ru/upload/iblock/f18/1461829384_back-main.jpg);"></div>
-      <p class="main_text_one">Визы от компании 8TOPUS</p>
-      <ul class="blocks-list">
-            <li class="blocks-item">
-              <a href="/one" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/374c812b4c4857d83b25a014ec5a8c3f40e16487.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Туры</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/two" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/4eb63eefe1859c5c8cde91c5f0b455d0edb6e7a5.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Прокат авто</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/three" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/070574bd9c5902d0f5b297e7d3136c0e13ef6f5b.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Экскурсии</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="four" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/1d5413e4d86028964e7d385ab073ab6f33db996f.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Аренда яхт</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            
-            <li class="blocks-item">
-              <a href="/five" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/837370051ef81c2867293c8a871b17e391e76859.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Ж/д билеты</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/six" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/83845bfbb7e81434ea3666f8d046372b23346075.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Поиск попутчиков</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/seven" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/08895e77147645702bc1d4fd2bb634df09c8ab21.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Визы</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-      </ul>
-    </section>
 
-<section style="
-display: flex;
-    justify-content: center;
+</div>
+<div class="container">
+  <div class="row">
+    <p>ВИЗЫ Получить визу- легко! Вы экономите ВРЕМЯ.<br><br>
+
+Вам не надо разбираться в тонкостях процесса, узнавать куда пойти, что сделать, какие документы собрать, и т.д. Вам даже выходить из дома не надо!<br><br>
+
+Заполните ЗАЯВКУ на нашем сайте и через 1-2 дня документы для визы готовы. ГАРАНТИЯ РЕЗУЛЬТАТА.<br><br>
+
+У нас уже сотни довольных клиентов.<br><br>
+
+Мы настолько уверены в качестве наших услуг, что гарантируем вам возврат всех оплаченных нам денег, если вдруг у вас будет отказ в визе.<br><br>
+
+Вы бережете НЕРВЫ.<br><br>
+
+Вам не надо сходить с ума, переживать, как не допустить ошибки, как не забыть какую-то важную деталь, как ответить на этот странный вопрос анкеты и т.д.<br><br>
+
+Доверьте все профессионалам. Заполните заявку, Наш специалист свяжется с вами</p>
+<div style="    display: flex;
     align-items: center;
-    flex-direction: column;">
-<div class="container">
-<div>
-<a href="http://yanatom.visaglobal.promotionalurl.com">
-<img src="assets/img/123.png" alt="">
-</a>
-</div>
-</div>
-</section>
+    justify-content: center;">
+<a class="waves-effect waves-light btn modal-trigger pulse" style="     background-color: #d1a500;   color: white; width:80%;" href="#modal1">Написать нам</a>
 
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <p style="font-size:18px; text-align:center; color:black;">Форма обратной связи</p>
+      <form action="/mainmess" method="POST">
+      {{ csrf_field() }}
+    <div class="col s12">
+      <input type="text" name="name_text" placeholder="Введите Ваше имя" required>
+    </div>
+    <br>
+    <div class="col s12">
+      <input type="email" name="email" placeholder="Введите Вашу почту" required>
+    </div>
+    <br>
+    <div class="col s12">
+      <textarea name="" id="" cols="30" rows="10" name="textarea" placeholder="Введите текст Вашего обращения" required></textarea>
+    </div>
+    <div class="col s12" style="text-align:right;">
+    <button class="btn" type="submit">Отправить</button>
+    </div>
+    </form>
+    </div>
+  </div>
 </div>
+</div>
+</div>
+
+
 
 @endsection

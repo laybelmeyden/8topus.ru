@@ -2,75 +2,100 @@
 
 @section('content')
 
-<div class="root">
-<link rel="stylesheet" href="assets/css/main.css">
+<div class="parallax-head" style="background-image: url(https://psv4.userapi.com/c848228/u3216951/docs/d7/fdf31a66162a/istock_000051070202large_wide-9cbf742a18705ffd04d281842059b2bc96c69b3a.jpg?extra=7k9-Y5rFbg5Z0yRQrPoQhz3yP7somoaDE41D38Zvn1v1GBZl4gyeUUKvDuYHo92d3eEpVDteYZOZ4oxpGWO1n53TKDjOwzXrVwRT1KwiGj-KwA915Z-kaoyiOt9BhxxtVES-N-YM5BEKZzHFiSJ8qKrq);">
+      <div class="container container_para">
+      <div class="row">
+      <p class="main_text_one">ПРОКАТ АВТО ОТ КОМПАНИИ 8TOPUS</p> 
+      <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/one">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+          <p>Отели</p>
+          <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/two">
+        <div class="main_nav_item" style="border-right: 1px solid white; color: #d1a500;">
+        <p>Прокат авто</p>
+        <i class="fas fa-car fnt40"></i>
+        </div>
+        </a>
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/four">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Аренда яхт</p>
+        <i class="fas fa-ship fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
+        </div>
+        </a>
+      </div>
+      <div class="grid-container-2fr">
+      <a href="/six">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
+        </div>
+        </a>
+        <a href="/seven">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Визы</p>
+        <i class="fas fa-id-card fnt40"></i>
+        </div>
+        </a>
+        <a href="/eat">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Круизы</p>
+        <i class="fas fa-anchor fnt40"></i>
+        </div>
+        </a>
+        <a href="/eat2">
+        <div class="main_nav_item">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
+      </div>
+      
+      </div>
+      </div>
+</div>
+<script src="http://c18.travelpayouts.com/content?promo_id=1492&shmarker=219987" charset="utf-8" async></script>
 <div class="container">
-  <section class="section knowledge-base">
-    <section class="categories blocks" style="    padding-bottom: 80px;">
-      <div class="blocks_item_main" style="background-image: url(https://siss.ru/uploads/firm/gallery/171781/192564/medium.jpg?_=290443091);"></div>
-      <p class="main_text_one">Прокат авто от компании 8TOPUS</p>
-      <ul class="blocks-list">
-            <li class="blocks-item">
-              <a href="/one" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/374c812b4c4857d83b25a014ec5a8c3f40e16487.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Туры</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/two" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/4eb63eefe1859c5c8cde91c5f0b455d0edb6e7a5.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Прокат авто</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/three" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/070574bd9c5902d0f5b297e7d3136c0e13ef6f5b.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Экскурсии</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="four" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/1d5413e4d86028964e7d385ab073ab6f33db996f.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Аренда яхт</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            
-            <li class="blocks-item">
-              <a href="/five" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/837370051ef81c2867293c8a871b17e391e76859.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Ж/д билеты</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/six" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/83845bfbb7e81434ea3666f8d046372b23346075.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Поиск попутчиков</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/seven" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/08895e77147645702bc1d4fd2bb634df09c8ab21.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Визы</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-      </ul>
-    </section>
+  <div class="row">
+  <p>8TOPUS предлагает своим клиентам широкий выбор арендных автомобилей более чем в 20.000 станциях проката по всему миру. Квалифицированные специалисты готовы предоставить поддержку 7 дней в неделю.</p>
+  <ul class="main_ul">
+    <li>Никакой доплаты за отмену или изменение бронирования за 48 часов до начала аренды;</li>
 
-<section style="
-display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;">
+<li>Возврат франшизы в случае повреждения или кражи автомобиля доступен для большинства категорий и направлений;</li>
+
+<li>Никакой комиссии за кредитную карту;</li>
+
+<li>Бронирование в последнюю минуту;</li>
+
+<li>Наличие продукта в горячий сезон;</li>
+
+<li>Бронирование в 3 шага;</li>
+
+<li>Автомобили класса люкс, кемперы и др.</li>
+  </ul>
+  <p>Мы находим для вас самые выгодные цены на автомобили всех классов от более 800 автопрокатных компаний, включая все ведущие бренды.</p>
+  </div>
+</div>
+<section style="text-align: center;
+    text-align: -webkit-center;">
+  <div class="container">
 <script src="https://c10.travelpayouts.com/content?promo_id=2109&shmarker=219987" charset="utf-8" async="true"></script> <script src="https://c52.travelpayouts.com/content?promo_id=1757&shmarker=219987" charset="utf-8" async="true"></script> <script src="https://c7.travelpayouts.com/content?promo_id=2468&shmarker=219987" charset="utf-8"></script>
+  </div>
 </section>
 
-</div>
 
 @endsection

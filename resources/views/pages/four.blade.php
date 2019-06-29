@@ -4,77 +4,94 @@
 <style>
 
 </style>
-<div class="root">
-<link rel="stylesheet" href="assets/css/main.css">
-<div class="container">
-  <section class="section knowledge-base">
-    <section class="categories blocks" style="    padding-bottom: 80px;">
-      <div class="blocks_item_main" style="background-image: url(https://static.tildacdn.com/tild3239-3336-4164-b139-376236653532/B313.jpg);"></div>
-      <p class="main_text_one">Аренда яхт от компании 8TOPUS</p>
-      <ul class="blocks-list">
-            <li class="blocks-item">
-              <a href="/one" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/374c812b4c4857d83b25a014ec5a8c3f40e16487.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Туры</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/two" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/4eb63eefe1859c5c8cde91c5f0b455d0edb6e7a5.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Прокат авто</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/three" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/070574bd9c5902d0f5b297e7d3136c0e13ef6f5b.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Экскурсии</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="four" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/1d5413e4d86028964e7d385ab073ab6f33db996f.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Аренда яхт</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            
-            <li class="blocks-item">
-              <a href="/five" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/837370051ef81c2867293c8a871b17e391e76859.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Ж/д билеты</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/six" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/83845bfbb7e81434ea3666f8d046372b23346075.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Поиск попутчиков</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-            <li class="blocks-item">
-              <a href="/seven" class="blocks-item-link">
-                <img src="//theme.zdassets.com/theme_assets/622844/08895e77147645702bc1d4fd2bb634df09c8ab21.svg" class="blocks-item-img">
-                <h4 class="blocks-item-title">Визы</h4>
-                <p class="blocks-item-description"></p>
-              </a>
-            </li>
-      </ul>
-    </section>
-
-<section style="
-display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;">
-<div class="container">
-<a target="_blank" href="https://c92.travelpayouts.com/click?shmarker=219987&promo_id=2397&source_type=banner&type=click"><img src="https://c92.travelpayouts.com/content?promo_id=2397&shmarker=219987&type=init" alt="728*90" width="728" height="90"></a>
+<div class="parallax-head" style="background-image: url(https://psv4.userapi.com/c848432/u3216951/docs/d14/dc65e8c66bef/Kater_otdykh_devushka_za_rulem_katera_-_Boat_rest_the_girl_at_the_wheel_of_a_boat_5139_215_3426.jpg?extra=nenX9gbtbiZIzOcj9EEadDWxtD1w0hbx22ImXG4LGsPTacmAY9m_5JsF-LKJnSP9n2gfT1mFg2fG4EeNAZy_xn4vyfMZIk2mzyjF6bm4i2Les-savnoX_mKxO753JdiQ-KWMozfvW6aExDawYSsI_rwV);">
+      <div class="container container_para">
+      <div class="row">
+      <p class="main_text_one">АРЕНДА ЯХТ ОТ КОМПАНИИ 8TOPUS</p> 
+      <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/one">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+          <p>Отели</p>
+          <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/two">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Прокат авто</p>
+        <i class="fas fa-car fnt40"></i>
+        </div>
+        </a>
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/four">
+        <div class="main_nav_item" style="border-right: 1px solid white; color: #d1a500;">
+        <p>Аренда яхт</p>
+        <i class="fas fa-ship fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
+        </div>
+        </a>
+      </div>
+      <div class="grid-container-2fr">
+      <a href="/six">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
+        </div>
+        </a>
+        <a href="/seven">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Визы</p>
+        <i class="fas fa-id-card fnt40"></i>
+        </div>
+        </a>
+        <a href="/eat">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Круизы</p>
+        <i class="fas fa-anchor fnt40"></i>
+        </div>
+        </a>
+        <a href="/eat2">
+        <div class="main_nav_item">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
+      </div>
+      
+      </div>
+      </div>
 </div>
+<script src="http://c18.travelpayouts.com/content?promo_id=1492&shmarker=219987" charset="utf-8" async></script>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <p>АРЕНДА ЯХТ Компания 8TOPUS рада предложить вам самый легкий способ организовать морское путешествие своей мечты. 
+        Это единственный в своем роде международный сайт, посвященный бутик-круизам — авторским круизам по всему миру. 
+        Здесь можно забронировать каюты на малых и средних кораблях, обслуживаемых профессиональными командами. <br><br>
+        Мы предлагаем великое множество направлений и широкий диапазон цен. 
+        Электронная платформа 8TOPUS— это верный помощник для любителей индивидуальных путешествий. 
+        С ее помощью вы можете отправиться в бутик-круиз в любую точку мира и провести там незабываемый отпуск. <br><br>
+        8TOPUS предлагает большое количество морских авторских круизов сопровождающимися различными мероприятиями, 
+        которыми наши клиенты могут заниматься во время круиза, и тематическими круизами, таких как экспедиции, дайвинг, 
+        йога, велосипедные прогулки и так далее. 
+        Кроме того, 8TOPUS предлагает возможность проведения всевозможных 
+        бизнес-мероприятий и романтических празднований во время бутик круиза. 
+        Большим группам мы рекомендуем отдых на уникальной авторской флотилии где они смогут насладиться пятизвездочным сервисом. 
+        Выбери свой круиз <br><br>
+        <a target="_blank" href="https://c92.travelpayouts.com/click?shmarker=219987&promo_id=2397&source_type=banner&type=click"><img src="https://c92.travelpayouts.com/content?promo_id=2397&shmarker=219987&type=init" alt="728*90" width="728" height="90"></a></p>
+    </div>
+  </div>
 </section>
 
-</div>
 
 @endsection
