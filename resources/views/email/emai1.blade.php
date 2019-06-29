@@ -5,7 +5,7 @@
     <title>Message from site</title>
   </head>
   <body>
-    Имя - {{ $name }} <br />
+    Имя - {{ $name_text }} <br />
     Почта - {{ $email }} <br />
     Сообщение - {{ $textarea }} <br />
   </body>

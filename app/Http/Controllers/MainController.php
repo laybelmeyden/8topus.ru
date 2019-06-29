@@ -65,14 +65,14 @@ class MainController extends Controller
     public function mainmess(Request $request)
       {   
       $data= array(
-      'name' => request('name'),
+      'name' => request('name_text'),
       'email' => request('email'),
       'textarea' => request('textarea'),
       );
        \Mail::send('email.emai1', $data, function($message) use ($data)
     {
         $mail_admin = env('MAIL_ADMIN_EVENTSOLO');
-        $message->from($data['email'], $data['name'], $data['textarea']);
+        $message->from($data['email'], $data['name_text'], $data['textarea']);
         $message->to($mail_admin, 'For Admin')->subject('Message from site');
      });
      session()->flash('message', 'Ваша заявка отправлена!');

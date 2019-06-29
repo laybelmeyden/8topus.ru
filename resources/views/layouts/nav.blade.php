@@ -25,7 +25,7 @@
     </div>
     <br>
     <div class="col s12">
-      <textarea name="" id="" cols="30" rows="10" name="textarea" placeholder="Введите текст Вашего обращения" required></textarea>
+      <textarea name="textarea" id="" cols="30" rows="10" placeholder="Введите текст Вашего обращения" required></textarea>
     </div>
     <div class="col s12" style="text-align:right;">
     <button class="btn" type="submit">Отправить</button>
