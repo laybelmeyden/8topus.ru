@@ -65,7 +65,7 @@ class MainController extends Controller
     public function mainmess(Request $request)
       {   
       $data= array(
-      'name' => request('name_text'),
+      'name_text' => request('name_text'),
       'email' => request('email'),
       'textarea' => request('textarea'),
       );
