@@ -8,7 +8,7 @@
         <li><a href="/fransh">Франшиза</a></li>
         <li><a href="/contact">Контакты</a></li>
         <li> <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger pulse" style="     background-color: #d1a500;   color: white;" href="#modal1">Написать нам</a>
+  <a class="waves-effect waves-light btn modal-trigger" style="     background-color: #d1a500;   color: white;" href="#modal1">Служба поддержки</a>
 
   <!-- Modal Structure -->
   <div id="modal1" class="modal">

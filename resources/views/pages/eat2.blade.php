@@ -1,15 +1,27 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="parallax-head" style="background-image: url(https://million-wallpapers.ru/wallpapers/6/49/393548132645308.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/14847964315880320f826329_77386816.jpg);">
       <div class="container container_para">
       <div class="row">
-      <p class="main_text_one">Туры ОТ КОМПАНИИ 8TOPUS</p> 
+      <p class="main_text_one">ТУРЫ ОТ КОМПАНИИ 8TOPUS</p>
       <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/eat2">
+        <div class="main_nav_item" style="border-right: 1px solid white; color: #d1a500;">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
       <a href="/one">
         <div class="main_nav_item" style="border-right: 1px solid white;">
           <p>Отели</p>
           <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
         </div>
         </a>
         <a href="/two">
@@ -18,33 +30,15 @@
         <i class="fas fa-car fnt40"></i>
         </div>
         </a>
-        <a href="/three">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Экскурсии</p>
-        <i class="fas fa-bus fnt40"></i>
-        </div>
-        </a>
         <a href="/four">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <div class="main_nav_item">
         <p>Аренда яхт</p>
         <i class="fas fa-ship fnt40"></i>
         </div>
         </a>
-        <a href="/five">
-        <div class="main_nav_item" style="">
-        <p>Ж/Д И АВИАБИЛЕТЫ</p>
-        <i class="fas fa-train fnt40"></i>
-        </div>
-        </a>
       </div>
       <div class="grid-container-2fr">
-      <a href="/six">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Поиск попутчиков</p>
-        <i class="fas fa-users fnt40"></i>
-        </div>
-        </a>
-        <a href="/seven">
+      <a href="/seven">
         <div class="main_nav_item" style="border-right: 1px solid white;">
         <p>Визы</p>
         <i class="fas fa-id-card fnt40"></i>
@@ -56,14 +50,19 @@
         <i class="fas fa-anchor fnt40"></i>
         </div>
         </a>
-        <a href="/eat2">
-        <div class="main_nav_item" style="color: #d1a500;">
-        <p>Туры</p>
-        <i class="fas fa-map-marked-alt fnt40"></i>
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/six">
+        <div class="main_nav_item">
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
         </div>
         </a>
       </div>
-      
       </div>
       </div>
 </div>
@@ -73,8 +72,8 @@
 </div>
 <div class="container">
   <div class="row">
-    <p>8TOPUS – это поиск самых выгодных туров. <br><br>
-        К проекту подключено более 120 туроператоров, мы гарантирует, что эти туры можно купить по самым выгодным условиям. <br><br>
+    <p class="p1_zag">8TOPUS – это поиск самых выгодных туров.</p>
+        <p>К проекту подключено более 120 туроператоров, мы гарантирует, что эти туры можно купить по самым выгодным условиям. <br><br>
         - Партнерами 8TOPUS являются только самые крупные и надежные туроператоры, поэтому можно быть уверенным в качестве предлагаемых туров. <br><br>
         - Лучшие цены: лучшие предложения соотношением цена/качество. <br><br>
         Удобно, быстро и надежно: <br><br>

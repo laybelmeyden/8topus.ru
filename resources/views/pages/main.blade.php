@@ -3,12 +3,24 @@
 <div class="parallax-head" style="background-image: url(http://inmocosta.com/wp-content/uploads/2016/12/turista-2.jpg);">
       <div class="container container_para">
       <div class="row">
-      <p class="main_text_one">Весь отдых на одном сайте! Гарантия лучших цен</p> 
+      <p class="main_text_one">Весь отдых на одном сайте!<br> <span class="span_main">Гарантия лучших цен!</span></p>
       <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/eat2">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
       <a href="/one">
         <div class="main_nav_item" style="border-right: 1px solid white;">
           <p>Отели</p>
           <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
         </div>
         </a>
         <a href="/two">
@@ -17,33 +29,15 @@
         <i class="fas fa-car fnt40"></i>
         </div>
         </a>
-        <a href="/three">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Экскурсии</p>
-        <i class="fas fa-bus fnt40"></i>
-        </div>
-        </a>
         <a href="/four">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <div class="main_nav_item">
         <p>Аренда яхт</p>
         <i class="fas fa-ship fnt40"></i>
         </div>
         </a>
-        <a href="/five">
-        <div class="main_nav_item">
-        <p>Ж/Д И АВИАБИЛЕТЫ</p>
-        <i class="fas fa-train fnt40"></i>
-        </div>
-        </a>
       </div>
       <div class="grid-container-2fr">
-      <a href="/six">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Поиск попутчиков</p>
-        <i class="fas fa-users fnt40"></i>
-        </div>
-        </a>
-        <a href="/seven">
+      <a href="/seven">
         <div class="main_nav_item" style="border-right: 1px solid white;">
         <p>Визы</p>
         <i class="fas fa-id-card fnt40"></i>
@@ -55,18 +49,22 @@
         <i class="fas fa-anchor fnt40"></i>
         </div>
         </a>
-        <a href="/eat2">
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/six">
         <div class="main_nav_item">
-        <p>Туры</p>
-        <i class="fas fa-map-marked-alt fnt40"></i>
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
         </div>
         </a>
       </div>
-      
       </div>
       </div>
 </div>
-<script src="http://c18.travelpayouts.com/content?promo_id=1492&shmarker=219987" charset="utf-8" async></script>
     <section id="about">
       <div class="container">
         <div class="row">

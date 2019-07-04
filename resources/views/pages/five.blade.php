@@ -6,16 +6,34 @@
 .tp_powered_by{
   opacity:0;
 }
+.tutu_widget .tutu_station_field, .tutu_widget .tutu_date_field{
+  height:55px;
+}
+.tutu_widget .tutu_arrow__button{
+  width:100%;
+}
 </style>
-<div class="parallax-head" style="background-image: url(https://psv4.userapi.com/c848336/u3216951/docs/d14/e062330cc5c5/shutterstock_117016681.jpg?extra=OpgjJ5BUNLGfS0Ie7GBNeS80FRp7y29z04DPZcY5GcGzRNip_acmoiO87JMCnWHz9dbBBicVcNG9NOyVB3WBeDCcktRU_cmWUZQ5P65uNzJgGj0v52IAEHK-RMT_QstUgOfuJUvZCjKLwG13PvYvOxc);">
+<div class="parallax-head" style="background-image: url(assets/img/shutterstock_117016681.jpg);">
       <div class="container container_para">
       <div class="row">
-      <p class="main_text_one">Ж/Д билеты ОТ КОМПАНИИ 8TOPUS</p> 
+      <p class="main_text_one">Ж/Д И АВИАБИЛЕТЫ ОТ КОМПАНИИ 8TOPUS</p>
       <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/eat2">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
       <a href="/one">
         <div class="main_nav_item" style="border-right: 1px solid white;">
           <p>Отели</p>
           <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item" style="border-right: 1px solid white; color:#d1a500;">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
         </div>
         </a>
         <a href="/two">
@@ -24,33 +42,15 @@
         <i class="fas fa-car fnt40"></i>
         </div>
         </a>
-        <a href="/three">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Экскурсии</p>
-        <i class="fas fa-bus fnt40"></i>
-        </div>
-        </a>
         <a href="/four">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <div class="main_nav_item">
         <p>Аренда яхт</p>
         <i class="fas fa-ship fnt40"></i>
         </div>
         </a>
-        <a href="/five">
-        <div class="main_nav_item" style="color: #d1a500;">
-        <p>Ж/Д И АВИАБИЛЕТЫ</p>
-        <i class="fas fa-train fnt40"></i>
-        </div>
-        </a>
       </div>
       <div class="grid-container-2fr">
-      <a href="/six">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Поиск попутчиков</p>
-        <i class="fas fa-users fnt40"></i>
-        </div>
-        </a>
-        <a href="/seven">
+      <a href="/seven">
         <div class="main_nav_item" style="border-right: 1px solid white;">
         <p>Визы</p>
         <i class="fas fa-id-card fnt40"></i>
@@ -62,21 +62,26 @@
         <i class="fas fa-anchor fnt40"></i>
         </div>
         </a>
-        <a href="/eat2">
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/six">
         <div class="main_nav_item">
-        <p>Туры</p>
-        <i class="fas fa-map-marked-alt fnt40"></i>
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
         </div>
         </a>
       </div>
-      
       </div>
       </div>
 </div>
-<script src="http://c18.travelpayouts.com/content?promo_id=1492&shmarker=219987" charset="utf-8" async></script>
 <div class="container">
   <div class="row">
-    <p>ЖД И АВИАБИЛЕТЫ На сайте 8TOPUS покупают онлайн ж/д билеты, авиабилеты, билеты на автобусы. <br><br>
+    <p class="p1_zag">На сайте 8TOPUS покупают онлайн ж/д билеты, авиабилеты, билеты на автобусы.</p>
+    <p>
       Пользователь может заказать ж/д билет на один из 3673 поездов по России и странам СНГ. 
       С помощью фильтров по типу вагона, времени отправления, цене, рейтингу поезда выбрать подходящий ж/д билет намного легче и быстрее. <br><br>
       Сотрудничаем с 286 ведущими авиакомпаниями. Выбирать авиабилет удобно с 
@@ -90,11 +95,13 @@
 display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;">
+    flex-direction: column;
+    text-align: center;
+    text-align: -webkit-center;">
 <div class="container">
-<div>
-<script src="https://c45.travelpayouts.com/content?promo_id=1809&shmarker=219987" charset="utf-8" async="true"></script>
-</div>
+
+<script src="//c45.travelpayouts.com/content?promo_id=1356&shmarker=219987" charset="utf-8" async></script>
+
 </div>
 </section>
 <div class="container">

@@ -7,15 +7,27 @@
   width: 10%;
 }
 </style>
-<div class="parallax-head" style="background-image: url(https://psv4.userapi.com/c848428/u3216951/docs/d14/2a9fc433c82a/Exkursia_binokl_turizm_-_Excursion_binoculars_tourism_8192_215_5461.jpg?extra=zY6QArbVL2lG7yrN1nOSWKnYx4CT1ECtrli2SMltCM2gjRQH5FLkfuwy8hQjpVDXYTaygJliKCacKC09LP4zDj7VlQ5ZanL68GWdoua6s2O1_IvrNr_TaIQSRdNES-369cvTwhaF9MSSHPkDOzgfIAiS);">
+<div class="parallax-head" style="background-image: url(assets/img/Exkursia_binokl_turizm_-_Excursion_binoculars_tourism_8192_215_5461.jpg);">
       <div class="container container_para">
       <div class="row">
-      <p class="main_text_one">ЭКСКУРСИИ ОТ КОМПАНИИ 8TOPUS</p> 
+      <p class="main_text_one">ЭКСКУРСИИ ОТ КОМПАНИИ 8TOPUS</p>
       <div class="grid-container" style="border-bottom:1px solid white">
+      <a href="/eat2">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Туры</p>
+        <i class="fas fa-map-marked-alt fnt40"></i>
+        </div>
+        </a>
       <a href="/one">
         <div class="main_nav_item" style="border-right: 1px solid white;">
           <p>Отели</p>
           <i class="fas fa-hotel fnt40"></i>
+        </div>
+        </a>
+        <a href="/five">
+        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <i class="fas fa-train fnt40"></i>
         </div>
         </a>
         <a href="/two">
@@ -24,33 +36,15 @@
         <i class="fas fa-car fnt40"></i>
         </div>
         </a>
-        <a href="/three">
-        <div class="main_nav_item" style="border-right: 1px solid white; color: #d1a500;">
-        <p>Экскурсии</p>
-        <i class="fas fa-bus fnt40"></i>
-        </div>
-        </a>
         <a href="/four">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
+        <div class="main_nav_item" style="">
         <p>Аренда яхт</p>
         <i class="fas fa-ship fnt40"></i>
         </div>
         </a>
-        <a href="/five">
-        <div class="main_nav_item">
-        <p>Ж/Д И АВИАБИЛЕТЫ</p>
-        <i class="fas fa-train fnt40"></i>
-        </div>
-        </a>
       </div>
       <div class="grid-container-2fr">
-      <a href="/six">
-        <div class="main_nav_item" style="border-right: 1px solid white;">
-        <p>Поиск попутчиков</p>
-        <i class="fas fa-users fnt40"></i>
-        </div>
-        </a>
-        <a href="/seven">
+      <a href="/seven">
         <div class="main_nav_item" style="border-right: 1px solid white;">
         <p>Визы</p>
         <i class="fas fa-id-card fnt40"></i>
@@ -62,23 +56,27 @@
         <i class="fas fa-anchor fnt40"></i>
         </div>
         </a>
-        <a href="/eat2">
+        <a href="/three">
+        <div class="main_nav_item" style="border-right: 1px solid white; color:#d1a500;">
+        <p>Экскурсии</p>
+        <i class="fas fa-bus fnt40"></i>
+        </div>
+        </a>
+        <a href="/six">
         <div class="main_nav_item">
-        <p>Туры</p>
-        <i class="fas fa-map-marked-alt fnt40"></i>
+        <p>Поиск попутчиков</p>
+        <i class="fas fa-users fnt40"></i>
         </div>
         </a>
       </div>
-      
       </div>
       </div>
 </div>
-<script src="http://c18.travelpayouts.com/content?promo_id=1492&shmarker=219987" charset="utf-8" async></script>
 <section>
   <div class="container">
     <div class="row">
-      <p>ЭКСКУРСИИ 8TOPUS – площадка для поиска и бронирования экскурсий и мастер-классов по всему миру. 
-        У нас размещено более 5000 экскурсий в более, чем 100 городах: Москве, Санкт-Петербурге, Киеве, Праге, Париже, Барселоне, Риме, Лондоне, Паттайе, Пхукете и многих других.
+      <p class="p1_zag">8TOPUS – площадка для поиска и бронирования экскурсий и мастер-классов по всему миру. </p>
+        <p>У нас размещено более 5000 экскурсий в более, чем 100 городах: Москве, Санкт-Петербурге, Киеве, Праге, Париже, Барселоне, Риме, Лондоне, Паттайе, Пхукете и многих других.
         <br><br>
         Мы - строим сообщество гидов: лично собеседуем каждого и проверяем каждую экскурсию, а также не менее внимательно относимся к путешественникам: 
         на сайте работает служба поддержки и система рекомендаций. 
@@ -95,7 +93,7 @@
 <section style="">
 <div class="container">
 <div style="width:100%;">
-<script src="//c21.travelpayouts.com/content?promo_id=1810&shmarker=219987" charset="utf-8" async="true"></script>
+<script src="//c21.travelpayouts.com/content?promo_id=1786&shmarker=219987&horizontal=true&lead_text=true&disable_logo=true&transparent=true&no_borders=true&show_top=true&all_btn=true" charset="utf-8"></script>
 </div>
 </div>
 </section>
