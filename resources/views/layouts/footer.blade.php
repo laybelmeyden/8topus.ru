@@ -3,6 +3,7 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">8TOP.US - путешествуй без переплат</h5>
+                <p>Пишите на почту <a href="mailto:8topusru@gmail.com">8topusru@gmail.com</a></p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">Дополнительная информация</h5>

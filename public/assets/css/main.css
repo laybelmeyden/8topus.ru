@@ -204,6 +204,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 10px;
+    min-height: 900px;
 }
 
 .container_para {
@@ -240,5 +241,15 @@ p {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .parallax-head {
+        height: 900px;
+        background-position: 71%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .parallax-head {
+        height: 900px !important;
     }
 }

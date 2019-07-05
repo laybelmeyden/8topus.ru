@@ -91,31 +91,7 @@
     justify-content: center;"><div class="t5800" style="    width: 70px;">
        <svg class="t580" style="fill:#000000;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 180"><path d="M54.1 109c-.8 0-1.6-.4-2-1.1-.8-1.1-.5-2.7.6-3.5 1.3-.9 6.8-4 11.6-6.6-15.9-1.3-29.2-8.3-38.5-20.2C8.9 56 8.5 24.1 13.2 3.4c.3-1.3 1.7-2.2 3-1.9 1.3.3 2.2 1.7 1.9 3-4.5 19.6-4.2 49.8 11.6 70 9 11.5 21.5 17.7 37.2 18.4l-1.8-2.3c-1.4-1.7-2.7-3.4-4.1-5.1-.7-.9-1.5-1.9-2.3-2.9-.9-1.1-.7-2.6.4-3.5 1.1-.9 2.6-.7 3.5.4 0 0 0 .1.1.1l6.4 7.9c.5.5.9 1.1 1.4 1.7 1.5 1.8 3.1 3.6 4.4 5.6 0 .1.1.1.1.2.1.3.2.5.3.8v.6c0 .2-.1.4-.2.6-.1.1-.1.3-.2.4-.1.2-.3.4-.5.6-.1.1-.3.2-.5.3-.1 0-.1.1-.2.1-1.2.6-16 8.6-18.1 10-.5.5-1 .6-1.5.6z"></path></svg> 
       </div>
-<a class="waves-effect waves-light btn modal-trigger pulse" style="     background-color: #d1a500;   color: white; width:80%;" href="#modal2">Заполнить заявку</a>
-
-  <!-- Modal Structure -->
-  <div id="modal2" class="modal">
-    <div class="modal-content">
-      <p style="font-size:18px; text-align:center; color:black;">Форма обратной связи</p>
-      <form action="/mainmess" method="POST">
-      {{ csrf_field() }}
-    <div class="col s12">
-      <input type="text" name="name_text" placeholder="Введите Ваше имя" required>
-    </div>
-    <br>
-    <div class="col s12">
-      <input type="email" name="email" placeholder="Введите Вашу почту" required>
-    </div>
-    <br>
-    <div class="col s12">
-      <textarea name="" id="" cols="30" rows="10" name="textarea" placeholder="Введите текст Вашего обращения" required></textarea>
-    </div>
-    <div class="col s12" style="text-align:right; padding:40px;">
-    <button class="btn" type="submit">Отправить</button>
-    </div>
-    </form>
-    </div>
-  </div>
+<a class="waves-effect waves-light btn modal-trigger pulse" style="     background-color: #d1a500;   color: white; width:80%;" target="_blank" href="http://yanatom.visaglobal.promotionalurl.com">Заполнить заявку</a>
 </div>
 </div>
 </div>
