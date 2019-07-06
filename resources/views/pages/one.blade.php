@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="parallax-head" style="background-image: url(assets/img/otdykh_u_basseyna_-_relax_by_the_pool_4368__215_2912.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/otdykh_u_basseyna_-_relax_by_the_pool_4368__215_2912.jpg);     background-position: 69%;">
       <div class="container container_para">
       <div class="row">
       <p class="main_text_one">ОТЕЛИ ОТ КОМПАНИИ 8TOPUS</p>

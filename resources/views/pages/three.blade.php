@@ -7,7 +7,7 @@
   width: 10%;
 }
 </style>
-<div class="parallax-head" style="background-image: url(assets/img/Exkursia_binokl_turizm_-_Excursion_binoculars_tourism_8192_215_5461.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/Exkursia_binokl_turizm_-_Excursion_binoculars_tourism_8192_215_5461.jpg);     background-position: 37%;">
       <div class="container container_para">
       <div class="row">
       <p class="main_text_one">ЭКСКУРСИИ ОТ КОМПАНИИ 8TOPUS</p>

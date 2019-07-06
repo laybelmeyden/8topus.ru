@@ -13,7 +13,7 @@
   width:100%;
 }
 </style>
-<div class="parallax-head" style="background-image: url(assets/img/shutterstock_117016681.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/shutterstock_117016681.jpg); background-position: 57%;" >
       <div class="container container_para">
       <div class="row">
       <p class="main_text_one">Ж/Д И АВИАБИЛЕТЫ ОТ КОМПАНИИ 8TOPUS</p>

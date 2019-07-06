@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<div class="parallax-head" style="background-image: url(assets/img/5ab4d61045fe2.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/5ab4d61045fe2.jpg); background-position: 79%;">
       <div class="container container_para">
       <div class="row">
       <p class="main_text_one">КРУИЗЫ ОТ КОМПАНИИ 8TOPUS</p>

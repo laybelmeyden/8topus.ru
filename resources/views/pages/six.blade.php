@@ -3,7 +3,7 @@
 @section('content')
 
 
-<div class="parallax-head" style="background-image: url(assets/img/Dollarphotoclub_57448209-2.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/Dollarphotoclub_57448209-2.jpg);     background-position: 52%;">
       <div class="container container_para">
       <div class="row">
       <p class="main_text_one">ПОИСК ПОПУТЧИКОВ ОТ КОМПАНИИ 8TOPUS</p>

@@ -4,7 +4,7 @@
 <style>
 
 </style>
-<div class="parallax-head" style="background-image: url(assets/img/Kater_otdykh_devushka_za_rulem_katera_-_Boat_rest_the_girl_at_the_wheel_of_a_boat_5139_215_3426.jpg);">
+<div class="parallax-head" style="background-image: url(assets/img/Kater_otdykh_devushka_za_rulem_katera_-_Boat_rest_the_girl_at_the_wheel_of_a_boat_5139_215_3426.jpg); background-position: 16%;">
       <div class="container container_para">
       <div class="row">
       <p class="main_text_one">АРЕНДА ЯХТ ОТ КОМПАНИИ 8TOPUS</p>
