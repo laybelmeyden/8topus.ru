@@ -20,7 +20,7 @@
         </a>
         <a href="/five">
         <div class="main_nav_item" style="border-right: 1px solid white; ">
-        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <p>АВИАБИЛЕТЫ И Ж/Д</p>
         <i class="fas fa-train fnt40"></i>
         </div>
         </a>

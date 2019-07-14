@@ -32,7 +32,7 @@
         </a>
         <a href="/five">
         <div class="main_nav_item" style="border-right: 1px solid white; color:#d1a500;">
-        <p>Ж/Д И АВИАБИЛЕТЫ</p>
+        <p>АВИАБИЛЕТЫ И Ж/Д</p>
         <i class="fas fa-train fnt40"></i>
         </div>
         </a>
@@ -101,7 +101,7 @@ display: flex;
 <div class="container">
 
 <script src="//c45.travelpayouts.com/content?promo_id=1356&shmarker=219987" charset="utf-8" async></script>
-
+<script charset="utf-8" src="//www.travelpayouts.com/widgets/ce85fdc1c95c1146e8c9aa7ed43fbe43.js?v=1761" async></script>
 </div>
 </section>
 <div class="container">
