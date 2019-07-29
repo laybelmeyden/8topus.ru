@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <section class="service-home pt-115 pb-120">
             <div class="container">
                 <div class="row">
@@ -8,7 +9,7 @@
                         <div class="row">
                             <div class="col m12">
                                 <div class="service-details mb-40">
-                                    <h3 style="">Сеть туристических агентств 8TOPUS предлагает Вам стать партнерами и начать прибыльный бизнес вместе с нами под брендом 8TOPUS.</h3>
+                                    <h3 style="padding-top: 40px;">Сеть туристических агентств 8TOPUS предлагает Вам стать партнерами и начать прибыльный бизнес вместе с нами под брендом 8TOPUS.</h3>
                                 </div>
                                 <div class="row">
                                 <div class="col l6 m12">
