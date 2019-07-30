@@ -565,13 +565,13 @@
 
 
 
-            $('.btn__slider_two').click(function(e) {
+            // $('.btn__slider_two').click(function(e) {
 
-                e.preventDefault();
+            //     e.preventDefault();
 
-                $('.widget-click-tur').click();
+            //     $('.widget-click-tur').click();
 
-            });
+            // });
 
 
 
@@ -1076,7 +1076,7 @@
 
                     <div class="text__wrap_slider1">
 
-                        <span class="title"><span>Оформите</span><br/>туристическую страховку<br/> не выходя из дома</span>
+                        <span class="title"><span>САМЫЕ ВЫГОДНЫЕ ЦЕНЫ <br>НА ТУРЫ И ОТЕЛИ, <br>А ТАК ЖЕ ВСЕ ЧТО НУЖНО <br>В ПУТЕШЕСТВИИ</span>
 
 
 
@@ -1090,9 +1090,9 @@
 
                         <span class="img"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/level-travel-logo.png" alt=""/></span>
 
-                        <span class="title">Утомляет планирование отпуска?<br/>Пакетный тур — лучшее решение!</span>
+                        <span class="title">ПУТЕШЕСТВУЙ И ЗАРАБАТЫВАЙ С НАМИ - <br>ФРАНШИЗА 8TOP.US</span>
 
-                        <a href="#" class="btn__slider_two">Посмотреть туры</a>
+                        <a href="/fransh" class="btn__slider_two">Посмотреть туры</a>
 
                     </div>
                 </div>

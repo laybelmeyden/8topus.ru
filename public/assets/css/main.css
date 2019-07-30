@@ -631,12 +631,28 @@ body {
 
 .slider__block .slide_1 {
     width: 100%;
-    background: url('http://novrek.ru/pics/slider.jpeg') no-repeat;
+    background: url('../img/509e3ecf89db841a3ce447be4dddebc8.jpg') no-repeat;
     height: 402px;
-    background-position: center;
+    background-position: top;
     position: relative;
     background-size: cover;
 }
+
+
+/* .mewtwo-tabs_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+} */
+
+
+/* .mewtwo-tabs_list>li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+} */
 
 
 /* второй слайд */
