@@ -853,10 +853,11 @@ section {
 }
 
 .home_slider_content h1:first-child {
-    font-size: 60px;
+    font-size: 55px;
     font-weight: 900;
     color: #FFFFFF;
     text-transform: uppercase;
+    font-family: 'Caveat';
 }
 
 .tp_powered_by {

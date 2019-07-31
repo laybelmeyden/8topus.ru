@@ -45,11 +45,11 @@
 				<!-- Slider Item -->
 				<div class="owl-item home_slider_item">
 					<!-- Image by https://unsplash.com/@anikindimitry -->
-					<div class="home_slider_background" style="background-image:url(assets/img/JP-Images_Articles_3634_SummerVacation-e1402433379335.jpg)"></div>
+					<div class="home_slider_background" style="background-image:url(assets/img/WOkQPk7hps8.jpg)"></div>
 
 					<div class="home_slider_content text-center">
 						<div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
-							<h1>САМЫЕ ВЫГОДНЫЕ ЦЕНЫ НА ТУРЫ И ОТЕЛИ, А ТАК ЖЕ ВСЕ ЧТО НУЖНО В ПУТЕШЕСТВИИ</h1>
+							<h1>САМЫЕ ВЫГОДНЫЕ ЦЕНЫ НА ТУРЫ И ОТЕЛИ, <br>А ТАК ЖЕ ВСЕ ЧТО НУЖНО В ПУТЕШЕСТВИИ</h1>
 						</div>
 					</div>
 				</div>
@@ -160,7 +160,8 @@
 <!-- туры -->
 					<div class="search_panel two_scroll">
                     <iframe src="https://c43.travelpayouts.com/content?promo_id=1189&shmarker=219987&widget=940x220" width="100%" height="220" frameborder="0" scrolling="no" class="one_hidden"> </iframe>
-                        <iframe src="https://c43.travelpayouts.com/content?promo_id=1193&shmarker=219987&widget=305x660" width="660" height="400" frameborder="0" scrolling="yes" class="two_hidden"> </iframe>
+                        <iframe src="https://c43.travelpayouts.com/content?promo_id=1194&shmarker=219987&widget=306x488" width="100%
+" height="488" frameborder="0" scrolling="no" class="two_hidden"> </iframe>
                     </div>
 
 					<!-- Search Panel -->
@@ -184,10 +185,8 @@
                     <script src="https://c1.travelpayouts.com/content?promo_id=1486&shmarker=219987&theme=1&language=ru&powered_by=true" charset="utf-8" async></script>
                     </div>
                     <!-- Экскурсии -->
-                    <div class="search_panel" style=" justify-content: center;
-    overflow-y: scroll;
-    height: 290px;">
-                    <script src="//c21.travelpayouts.com/content?promo_id=1786&shmarker=219987&horizontal=false&lead_text=true&disable_logo=false&transparent=true&no_borders=false&show_top=true&all_btn=true&locale=ru&limit=3&pages=4&width=100%25&powered_by=true" charset="utf-8"></script>
+                    <div class="search_panel" style=" justify-content: center;">
+                    <div class="button home_slider_button" style="    z-index: 99;"><div class="button_bcg"></div><a href="https://experience.tripster.ru/?exp_partner=8top&utm_source=8top&utm_campaign=affiliates&utm_medium=link">Выбрать экскурсию</a></div>
                     </div>
                     <!-- Круизы -->
                     <div class="search_panel" style=" justify-content: center;">
@@ -199,7 +198,7 @@
                     </div>
                     <!-- Визы -->
                     <div class="search_panel" style=" justify-content: center;">
-                    <div class="button home_slider_button" style="    z-index: 99;"><div class="button_bcg"></div><a href="http://yanatom.visaglobal.promotionalurl.com/zakaz">Выбрать и оформить визу<span></span><span></span><span></span></a></div>
+                    <div class="button home_slider_button" style="    z-index: 99;"><div class="button_bcg"></div><a href="http://yanatom.visaglobal.promotionalurl.com/zakaz">Выбрать и оформить визу</a></div>
                     </div>
 
 
@@ -207,6 +206,7 @@
 			</div>
 		</div>		
     </div>
+  
     <div class="container">
         <div class="row">
             <div class="col col-lg-12 col-md-12 col-sm-12">
@@ -237,10 +237,10 @@
             <a href="https://hotellook.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/hotellook.png" alt="" class="img_part"></a>
             </div>
             <div class="col col-lg-4 col-sm-6">
-            <a href="https://www.blablacar.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/blablacar.png" alt=""></a>
+            <a href="https://www.blablacar.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/blablacar.png" alt="" class="img_part"></a>
             </div>
             <div class="col col-lg-4 col-sm-6">
-            <a href="https://www.aviasales.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/aviasales.png" alt=""></a>
+            <a href="https://www.aviasales.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/aviasales.png" alt="" class="img_part"></a>
             </div>
         </div>
     </div>

@@ -4,6 +4,18 @@
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+@font-face {
+    font-family: 'Arbat';
+    src: url(../fonts/16815.otf);
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url(../fonts/Caveatregular.ttf);
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 .header {
     position: fixed;
     width: 100%;
@@ -28,6 +40,14 @@
     display: none;
 }
 
+.img_frans_main {
+    width: 56%;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
 @media screen and (max-width:992px) {
     .one_hidden {
         display: none;
@@ -50,5 +70,16 @@
         padding-top: 0 !important;
         padding-bottom: 104px;
         background: #31124b;
+    }
+    .img_part {
+        padding: 15px;
+        width: 100px;
+    }
+    .img_frans_main {
+        width: 100%;
+        float: none;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-top: 10px;
     }
 }

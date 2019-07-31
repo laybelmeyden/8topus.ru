@@ -37,7 +37,7 @@
 						<div class="footer_content footer_contact">
 							<ul class="contact_info_list">
 								<li class="contact_info_item d-flex flex-row">
-									<div class="contact_info_text"><a href="https://vk.com/doc178674282_510569733?hash=88bd5cfbe9b4e66f28&dl=f31ee09881ecde0541">ОФЕРТА</a></div>
+									<div class="contact_info_text"><a href="https://vk.com/doc178674282_510735856?hash=e9345ee01b0258d711&dl=e763f2ca3a381775db">ОФЕРТА</a></div>
                 </li>
                 <li class="contact_info_item d-flex flex-row">
 									<div class="contact_info_text"><a href="https://vk.com/doc178674282_510569730?hash=c650ca27699483a515&dl=1acae0b45d3c1adfac">ПОЛИТИКА ПО РАБОТЕ С ДАННЫМИ</a></div>

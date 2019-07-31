@@ -9,7 +9,7 @@
 						<div class="main_nav_container ml-auto">
 							<ul class="main_nav_list">
 								<li class="main_nav_item"><a href="/faq">FAQ</a></li>
-								<li class="main_nav_item"><a href="/fransh">Парнерам</a></li>
+								<li class="main_nav_item"><a href="/fransh">Партнерам</a></li>
                                 <li class="main_nav_item"><a href="/contact">Контакты</a></li>
                                 <li class="main_nav_item"><a data-toggle="modal" data-target="#exampleModal" style="color:white;">СЛУЖБА ПОДДЕРЖКИ</a></li>
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -63,7 +63,7 @@
 			<div class="logo menu_logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
 			<ul>
 				<li class="menu_item"><a href="/faq">FAQ</a></li>
-				<li class="menu_item"><a href="/fransh">Парнерам</a></li>
+				<li class="menu_item"><a href="/fransh">Партнерам</a></li>
 				<li class="menu_item"><a href="/contact">Контакты</a></li>
 			</ul>
 		</div>
