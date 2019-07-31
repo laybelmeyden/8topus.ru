@@ -214,26 +214,26 @@
                 <p class="p_text_down_part">Крупнейшие авиакассы, агентства бронирования, турооператоры, ж/д и автобусные перевеозчики</p>
             </div>
             </div>
-            <div class="row">
-            <div class="col col-lg-4 col-md-6">
+            <div class="row" style="    text-align: center;">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://tripster.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/tripster.png" alt="" class="img_part"></a>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://kiwitaxi.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/kiwitaxi.png" alt="" class="img_part"></a>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://www.tutu.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/tutu.png" alt="" class="img_part"></a>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://cherehapa.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/cherehapa.png" alt="" class="img_part"></a>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://www.sputnik8.com/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/sputnik.png" alt="" class="img_part"></a>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://level.travel/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/level.png" alt="" class="img_part"></a>
             </div>
-            <div class="col col-lg-4 col-md-6">
+            <div class="col col-lg-4 col-sm-6">
             <a href="https://hotellook.ru/" title="" target="_blank"><img src="https://cdn.travelpayouts.com/marketing/kit_travel/hotellook.png" alt="" class="img_part"></a>
             </div>
             <div class="col col-lg-4 col-sm-6">

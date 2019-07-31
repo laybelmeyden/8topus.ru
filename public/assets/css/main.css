@@ -38,4 +38,17 @@
     .two_scroll {
         overflow-x: scroll;
     }
+    .fas,
+    .far {
+        font-size: 30px;
+        position: relative !important;
+        top: 10px !important;
+        padding-right: 31px;
+    }
+    .footer {
+        width: 100%;
+        padding-top: 0 !important;
+        padding-bottom: 104px;
+        background: #31124b;
+    }
 }

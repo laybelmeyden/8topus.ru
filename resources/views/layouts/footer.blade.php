@@ -10,13 +10,13 @@
 							<div class="logo"><a href="/"><img src="assets/img/Logotip_2.png" alt="" style="width: 30px;"><span style="color:#d1a500;">8</span>TOP.US</a></div>
 						</div>
               <p class="footer_about_text">Пишите на почту <a href="mailto:8topusru@gmail.com">8topusru@gmail.com</a></p>
-							<ul class="footer_social_list">
+							<!-- <ul class="footer_social_list">
 								<li class="footer_social_item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
 								<li class="footer_social_item"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
 								<li class="footer_social_item"><a href="#"><i class="fa fa-twitter"></i></a></li>
 								<li class="footer_social_item"><a href="#"><i class="fa fa-dribbble"></i></a></li>
 								<li class="footer_social_item"><a href="#"><i class="fa fa-behance"></i></a></li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
