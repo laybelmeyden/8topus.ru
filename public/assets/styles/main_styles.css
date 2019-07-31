@@ -88,7 +88,7 @@ p {
     font-size: 14px;
     line-height: 2;
     font-weight: 400;
-    color: #929191;
+    color: black;
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -649,7 +649,7 @@ section {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    background: rgba(14, 14, 14, 0.4);
+    background: rgba(0, 0, 0);
     z-index: 100;
     opacity: 0;
     visibility: hidden;
