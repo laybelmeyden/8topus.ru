@@ -12,12 +12,12 @@
                                     <h3 style="padding-top: 160px;">Сеть туристических агентств 8TOPUS предлагает Вам стать партнерами и начать прибыльный бизнес вместе с нами под брендом 8TOPUS.</h3>
                                 </div>
                                 <div class="row">
-                                <div class="col col-lg-6 col-md-12">
+                                <div class="col-lg-6 col-md-12">
                                         <div class="s-details-img mb-30">
                                             <img src="https://www.resolutepropertyprotect.com.au/wp-content/uploads/WCP.jpg" style="width:100%;" alt="">
                                         </div>
                                     </div>
-                                    <div class="col col-lg-6 col-md-12">
+                                    <div class="col-lg-6 col-md-12">
                                         <div class="service-details mb-40">
                                             <p style="margin-top: 0;">В рамках франшизы мы разрабатываем для вас ваш собственный сайт с готовыми предложениями на вашем локальном домене 
                                             (Вашгород.8topus.ru) - подключаем Все сервисы и даем вам доступы для вывода ваших процентов. 
