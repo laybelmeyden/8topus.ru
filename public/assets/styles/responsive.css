@@ -195,7 +195,7 @@
         display: none !important;
     }
     .footer_column {
-        margin-bottom: 60px;
+        margin-top: 60px;
     }
     .footer_column:last-child {
         margin-bottom: 0px;

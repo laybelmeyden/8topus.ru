@@ -21,29 +21,14 @@
 					</div>
 				</div>
 
-				<!-- Footer Column -->
-				<div class="col-lg-3 footer_column">
-					
-				</div>
+				
 
 				<!-- Footer Column -->
-				<div class="col-lg-3 footer_column">
-				</div>
-
-				<!-- Footer Column -->
-				<div class="col-lg-3 footer_column">
+				<div class="col-lg-9 footer_column">
 					<div class="footer_col">
 						<div class="footer_title">Дополнительная информация</div>
-						<div class="footer_content footer_contact">
-							<ul class="contact_info_list">
-								<li class="contact_info_item d-flex flex-row">
-									<div class="contact_info_text"><a href="https://vk.com/doc178674282_510735856?hash=e9345ee01b0258d711&dl=e763f2ca3a381775db">ОФЕРТА</a></div>
-                </li>
-                <li class="contact_info_item d-flex flex-row">
-									<div class="contact_info_text"><a href="https://vk.com/doc178674282_510569730?hash=c650ca27699483a515&dl=1acae0b45d3c1adfac">ПОЛИТИКА ПО РАБОТЕ С ДАННЫМИ</a></div>
-								</li>
-							</ul>
-						</div>
+									<div class="contact_info_text" style="padding-top:10px;"><a href="https://vk.com/doc178674282_510735856?hash=e9345ee01b0258d711&dl=e763f2ca3a381775db">ОФЕРТА</a></div>
+									<div class="contact_info_text" style="padding-top:10px;"><a href="https://vk.com/doc178674282_510569730?hash=c650ca27699483a515&dl=1acae0b45d3c1adfac">ПОЛИТИКА ПО РАБОТЕ С ДАННЫМИ</a></div>
 					</div>
 				</div>
 

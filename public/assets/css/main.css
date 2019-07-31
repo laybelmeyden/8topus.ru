@@ -32,6 +32,10 @@
     width: 1000px;
 }
 
+.footer_column {
+    text-align: right;
+}
+
 .sputnik8_tours_box_wrapper4821711586 {
     width: 1000px;
 }
@@ -57,6 +61,9 @@
     }
     .two_scroll {
         overflow-x: scroll;
+    }
+    .footer_column {
+        text-align: center;
     }
     .fas,
     .far {
