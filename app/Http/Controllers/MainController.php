@@ -95,7 +95,8 @@ class MainController extends Controller
      });
       
         
-     
+     session()->flash('message', 'Ваша заявка отправлена!');
+     return redirect('/');
     }
     
 }
