@@ -86,7 +86,12 @@ class MainController extends Controller
       'name_text' => request('name_text'),
       );
       $url = URL::action('https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D');
-        
+      \Mail::send($url, $data, function($message) use ($data)
+      {
+          $mail_admin = env('MAIL_ADMIN_EVENTSOLO');
+          $message->from($data['phone'], $data['city'], $data['textarea']);
+          $message->to($mail_admin, 'For Admin')->subject('Message from site');
+       });
      session()->flash('message', 'Ваша заявка отправлена!');
      return redirect('/');
     }
