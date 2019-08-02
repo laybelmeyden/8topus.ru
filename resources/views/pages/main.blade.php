@@ -211,7 +211,7 @@
         <div class="row">
             <div class="col col-lg-12 col-md-12 col-sm-12">
                 <p class="p_text_part">Наши партнёры</p>
-                <p class="p_text_down_part">Крупнейшие авиакассы, агентства бронирования, турооператоры, ж/д и автобусные перевеозчики</p>
+                <p class="p_text_down_part">Крупнейшие авиакассы, агентства бронирования, туроператоры, ж/д и автобусные перевозчики</p>
             </div>
             </div>
             <div class="row" style="    text-align: center;">

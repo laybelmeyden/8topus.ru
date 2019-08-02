@@ -119,7 +119,7 @@ p.parentNode.insertBefore(s,p);
 </div>
 </section>
 
-                                    <form action="https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D" method="POST" id="myform">
+                                    <form action="https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D" method="POST">
                                     {{ csrf_field() }}
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Ваше имя</label>
@@ -136,17 +136,9 @@ p.parentNode.insertBefore(s,p);
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textarea"></textarea>
                                     </div>
                                     <div class="col s12" style="text-align:right;">
-                                    <button class="btn" type="submit">Отправить</button>
+                                    <button class="btn" type="submit" >Отправить</button>
                                     </div>
                                     </form>
-<script>
-$('#myform').submit(function(e) {
-    this.submit();
-    setTimeout(function() {
-        window.location.href = '/';
-    }, 100);
-});
-</script>
                                     ----------------------
                                     
 

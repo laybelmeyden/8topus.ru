@@ -52,6 +52,14 @@
     padding-top: 10px;
 }
 
+.img_frans_main_2 {
+    width: 56%;
+    float: right;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
 @media screen and (max-width:992px) {
     .one_hidden {
         display: none;
@@ -82,7 +90,8 @@
         padding: 15px;
         width: 100px;
     }
-    .img_frans_main {
+    .img_frans_main,
+    .img_frans_main_2 {
         width: 100%;
         float: none;
         padding-right: 30px;

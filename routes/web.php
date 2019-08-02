@@ -29,6 +29,7 @@ Route::get('/contact', 'MainController@contact');
 Route::get('/wel', 'MainController@wel');
 
 Route::post('/mainmess', 'MainController@mainmess');
+Route::post('/mainmess2', 'MainController@mainmess');
 
 
 Route::group(['prefix' => 'admin'], function () {
