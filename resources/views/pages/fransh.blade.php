@@ -91,7 +91,7 @@ it – компании Вам необходимо всего лишь пода
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                    <form action="https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D" method="POST">
+                                    <form action="/mainmess2" method="POST">
                                     {{ csrf_field() }}
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Ваше имя</label>
