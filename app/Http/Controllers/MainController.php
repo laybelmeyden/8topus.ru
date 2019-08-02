@@ -85,7 +85,7 @@ class MainController extends Controller
       'city' => request('city'),
       'name_text' => request('name_text'),
       );
-      $endpoint = "https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D";
+      $url = "https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D";
      session()->flash('message', 'Ваша заявка отправлена!');
      return redirect('/');
     }
