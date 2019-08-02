@@ -87,8 +87,7 @@ class MainController extends Controller
       );
       URL::to('https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D');
       
-     session()->flash('message', 'Ваша заявка отправлена!');
-     return redirect('/');
+     
     }
     
 }
