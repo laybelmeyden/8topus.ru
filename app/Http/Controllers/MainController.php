@@ -78,9 +78,5 @@ class MainController extends Controller
      session()->flash('message', 'Ваша заявка отправлена!');
      return redirect('/');
     }
-    public function send(Request $request)
-    {
-        dd($request->all());
-    }
     
 }
