@@ -30,7 +30,7 @@ Route::get('/wel', 'MainController@wel');
 
 Route::post('/mainmess', 'MainController@mainmess');
 
-
+Route::post('/sendmail', 'MainController@send');
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });
