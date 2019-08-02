@@ -119,7 +119,7 @@ p.parentNode.insertBefore(s,p);
 </div>
 </section>
 
-                                    <form action="https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D" method="POST">
+                                    <form action="https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D" method="POST" id="myform">
                                     {{ csrf_field() }}
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Ваше имя</label>
@@ -139,6 +139,14 @@ p.parentNode.insertBefore(s,p);
                                     <button class="btn" type="submit">Отправить</button>
                                     </div>
                                     </form>
+<script>
+$('#myform').submit(function(e) {
+    this.submit();
+    setTimeout(function() {
+        window.location.href = '/';
+    }, 100);
+});
+</script>
                                     ----------------------
                                     
 
