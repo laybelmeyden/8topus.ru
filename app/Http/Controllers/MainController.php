@@ -89,9 +89,9 @@ class MainController extends Controller
       $url = URL::action('https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D');
       \Mail::send('email.emai2', $data, function($message) use ($data)
     {
-        $mail_admin = env('MAIL_ADMIN_EVENTSOLO');
+        $mail_admin = URL::action('https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D');;
         $message->from($data['email'], $data['city'], $data['phone'], $data['name_text']);
-        $message->to($url, 'For Admin');
+        $message->to($mail_admin, 'For Admin')->subject('Message from site');
      });
       
         
