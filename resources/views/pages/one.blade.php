@@ -119,6 +119,25 @@ p.parentNode.insertBefore(s,p);
 </div>
 </section>
 
-
+                                    <form action="https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D" method="POST">
+                                    {{ csrf_field() }}
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Ваше имя</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" name="name_text" aria-describedby="emailHelp" placeholder="Введите Ваше имя" required>
+                                        <small id="emailHelp" class="form-text text-muted">Вы можете ввести любое имя</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Ваша почта</label>
+                                        <input type="email" name="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Введите Ваш email" required>
+                                        <small id="emailHelp" class="form-text text-muted">Обязательно укажите вашу настоящую почту</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1" >Введите текст Вашего обращения</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textarea"></textarea>
+                                    </div>
+                                    <div class="col s12" style="text-align:right;">
+                                    <button class="btn" type="submit">Отправить</button>
+                                    </div>
+                                    </form>
 
 @endsection
