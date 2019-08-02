@@ -136,9 +136,8 @@ p.parentNode.insertBefore(s,p);
                                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="textarea"></textarea>
                                     </div>
                                     <div class="col s12" style="text-align:right;">
-                                    
+                                    <button class="btn" type="submit">Отправить</button>
                                     </div>
                                     </form>
-                                    <button class="btn" type="submit">Отправить</button>
 
 @endsection
