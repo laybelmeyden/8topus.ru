@@ -85,7 +85,15 @@ class MainController extends Controller
       'city' => request('city'),
       'name_text' => request('name_text'),
       );
-      $url = "https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D";
+      $ch = curl_init();
+curl_setopt($ch, CURLOPT_URL, "https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D".$method_request);
+
+
+$output = curl_exec($ch);
+curl_close($ch);
+
+
+$this -> response['response'] = json_decode($output);
      session()->flash('message', 'Ваша заявка отправлена!');
      return redirect('/');
     }
