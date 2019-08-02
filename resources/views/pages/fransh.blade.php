@@ -93,6 +93,9 @@ it – компании Вам необходимо всего лишь пода
                                     <div class="modal-body">
                                     <form action="/mainmess2" method="POST">
                                     {{ csrf_field() }}
+                                    <div class="form-group" style="display:none;">
+                                        <input type="text" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Введите Ваше имя" value="email@email.ru">
+                                    </div>
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Ваше имя</label>
                                         <input type="text" class="form-control" id="exampleInputEmail1" name="name_text" aria-describedby="emailHelp" placeholder="Введите Ваше имя" required>

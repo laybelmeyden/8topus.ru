@@ -81,6 +81,7 @@ class MainController extends Controller
     public function mainmess2(Request $request)
       {   
       $data= array(
+      'email' => request('email'),
       'phone' => request('phone'),
       'city' => request('city'),
       'name_text' => request('name_text'),
@@ -89,7 +90,7 @@ class MainController extends Controller
       \Mail::send('email.emai2', $data, function($message) use ($data)
     {
         $mail_admin = env('MAIL_ADMIN_EVENTSOLO');
-        $message->from($data['city'], $data['phone'], $data['name_text']);
+        $message->from($data['email'], $data['city'], $data['phone'], $data['name_text']);
         $message->to($url, 'For Admin');
      });
       
