@@ -40,7 +40,7 @@
 Мы передаем вам полностью готовое решение, все подключаем и размещаем на субдомене.
 </p>
 <div class="s-details-img mb-30">
-                                            <img src="assets/img/544.jpg" class="img_frans_main_2" alt="">
+                                            <img src="assets/img/A1Rb_FcYBVM.jpg" class="img_frans_main_2" alt="">
                                         </div>
 <p>С момента оплаты вступительного взноса до начала работы вашей СОБСТВЕННОЙ
 
@@ -75,7 +75,7 @@ it – компании Вам необходимо всего лишь пода
     border: 0px;
     cursor: pointer;
     margin-bottom:20px;
-    width: 300px;
+    width: 90%;
     text-transform: uppercase;">
   Узнать больше
 </button>
@@ -91,11 +91,7 @@ it – компании Вам необходимо всего лишь пода
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                    <form action="/mainmess2" method="POST">
-                                    {{ csrf_field() }}
-                                    <div class="form-group" style="display:none;">
-                                        <input type="text" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Введите Ваше имя" value="email@email.ru">
-                                    </div>
+                                    <form id="megaform" method="POST">
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Ваше имя</label>
                                         <input type="text" class="form-control" id="exampleInputEmail1" name="name_text" aria-describedby="emailHelp" placeholder="Введите Ваше имя" required>
@@ -130,5 +126,18 @@ it – компании Вам необходимо всего лишь пода
                 </div>
             </div>
         </section>
-
+        <script> 
+const form = document.querySelector('#megaform'); 
+form.addEventListener('submit', (e) => { 
+e.preventDefault(); 
+const formData = new FormData(); 
+Array.from(e.srcElement.elements).forEach(el => 
+el.value && formData.append(el.name, el.value) 
+) 
+fetch('https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D', { 
+method: 'POST', 
+body: formData 
+}) 
+}) 
+</script> 
         @endsection
