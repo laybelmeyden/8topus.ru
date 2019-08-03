@@ -138,6 +138,6 @@ fetch('https://h.albato.ru/h/38/asKnBuf81YOFbSfMf35sVeu0hPWmmY9n1SDPcLWJQSY%253D
 method: 'POST', 
 body: formData 
 }) 
-}) 
+location.href = '/fransh';}) 
 </script> 
         @endsection
