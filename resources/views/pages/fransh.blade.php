@@ -12,7 +12,7 @@
 <br><br>
 Мы рады представить вашему вниманию готовое партнерское предложение компании 8top.us - возможность стать владельцем собственной IT-компании в сфере туризма.</p>
 <div class="row">
-<div class="col-md-12 text-center">
+<div class="col-lg-12 text-center">
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1" style="
     background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);    border-radius: 33px;
     height: 50px;
