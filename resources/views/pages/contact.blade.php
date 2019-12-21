@@ -6,7 +6,7 @@
     <div class="row">
     <div class="col-md-12 text-center">
     <div class="footer-widget mb-30">
-    <h4  style="padding-top: 160px;">КОНТАКТЫ</h4>
+    <h4  style="padding-top: 160px;">{{ __('text.contact') }}</h4>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae5ef07f5f5768c1efb5569010d7c79be117e232e71a401325a74373d64ac0bdc&amp;source=constructor" width="100%" height="408" frameborder="0"></iframe>
     <p >г. Москва <br>
         ул. Б. Ордынка, д. 38, оф. 5<br>

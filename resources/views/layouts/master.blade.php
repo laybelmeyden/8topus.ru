@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{app()->getLocale()}}">
 
 <head>
 <title>8TOPUS - САМЫЕ ВЫГОДНЫЕ ЦЕНЫ НА ТУРЫ И ОТЕЛИ, А ТАК ЖЕ ВСЕ ЧТО НУЖНО В ПУТЕШЕСТВИИ</title>

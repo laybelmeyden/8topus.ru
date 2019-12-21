@@ -31,7 +31,10 @@ Route::get('/wel', 'MainController@wel');
 Route::post('/mainmess', 'MainController@mainmess');
 Route::post('/mainmess2', 'MainController@mainmess');
 
-
+Route::get('locale/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
 });

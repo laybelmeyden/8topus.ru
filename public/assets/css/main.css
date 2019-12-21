@@ -60,6 +60,20 @@
     padding-top: 10px;
 }
 
+.main_nav_item__locale li {
+    margin-right: 10px;
+}
+
+.main_nav_item__locale {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    right: 80px;
+}
+
 @media screen and (max-width:992px) {
     .one_hidden {
         display: none;

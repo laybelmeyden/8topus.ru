@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Faq;
+use App\Part;
 
 class MainController extends Controller
 {
@@ -44,11 +46,15 @@ class MainController extends Controller
     }
     public function faq()
     {
-      return view('pages.faq');
+      $faq = Faq::latest()
+        ->get();
+      return view('pages.faq', compact('faq'));
     }
     public function fransh()
     {
-      return view('pages.fransh');
+      $part = Part::latest()
+        ->get();
+      return view('pages.fransh', compact('part'));
     }
     public function contact()
     {
