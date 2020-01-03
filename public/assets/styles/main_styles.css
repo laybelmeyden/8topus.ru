@@ -852,7 +852,7 @@ section {
     margin-bottom: 0px;
 }
 
-.home_slider_content h1:first-child {
+.home_slider_content h1 {
     font-size: 55px;
     font-weight: 900;
     color: #FFFFFF;

@@ -52,6 +52,18 @@
     padding-top: 10px;
 }
 
+.google_play {
+    width: 90px;
+    height: 90px;
+}
+
+.grid_slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .img_frans_main_2 {
     width: 100%;
     float: right;

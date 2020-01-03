@@ -48,22 +48,33 @@
     <div class="home_slider_container">
 
         <div class="owl-carousel owl-theme home_slider">
-
-            <!-- Slider Item -->
-            <div class="owl-item home_slider_item">
+<!-- Slider Item -->
+<div class="owl-item home_slider_item">
                 <!-- Image by https://unsplash.com/@anikindimitry -->
                 <div class="home_slider_background" style="background-image:url(assets/img/WOkQPk7hps8.jpg)"></div>
 
                 <div class="home_slider_content text-center">
                     <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
                     @if (App::isLocale('ru'))
-                        <h1>САМЫЕ ВЫГОДНЫЕ ЦЕНЫ НА ТУРЫ И ОТЕЛИ, <br>А ТАК ЖЕ ВСЕ ЧТО НУЖНО В ПУТЕШЕСТВИИ</h1>
+                        <h1>Официальное приложение доступно в </h1>
+                        <div class="grid_slider">
+                        <h1 style="text-align: left; padding-top:20px;"> Google play </h1>
+                            <div class="google_play">
+                            <img src="assets/img/qr-codegoogle.gif" alt="Google play" >
+                            </div>
+                            
+                            <h1 style="text-align: left; padding-top:20px;"> App Store</h1>
+                            <div class="google_play">
+                            <img src="assets/img/qr-code.gif" alt="App Store">
+                            </div>
+                            </div>
                     @else
                     <h1>MOST FAVORABLE PRICES FOR TOURS AND HOTELS, <br> AND SAME ALL THINGS FOR TRAVELING</h1>
                     @endif
                     </div>
                 </div>
             </div>
+          
 
             <!-- Slider Item -->
             <div class="owl-item home_slider_item">

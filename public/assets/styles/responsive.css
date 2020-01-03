@@ -80,6 +80,9 @@
     .home_slider_content h1:first-child {
         font-size: 30px;
     }
+    .home_slider_content h1 {
+        font-size: 30px;
+    }
     .home_slider_content h1:nth-child(2) {
         font-size: 30px;
         margin-top: -24px;
@@ -113,6 +116,9 @@
         display: none;
     }
     .home_slider_content h1:first-child {
+        font-size: 72px;
+    }
+    .home_slider_content h1 {
         font-size: 72px;
     }
     .home_slider_content h1:nth-child(2) {
@@ -282,6 +288,9 @@
         display: none !important;
     }
     .home_slider_content h1:first-child {
+        font-size: 30px;
+    }
+    .home_slider_content h1 {
         font-size: 30px;
     }
     .home_slider_content h1:nth-child(2) {
