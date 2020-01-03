@@ -56,20 +56,47 @@
                 <div class="home_slider_content text-center">
                     <div class="home_slider_content_inner" data-animation-in="flipInX" data-animation-out="animate-out fadeOut">
                     @if (App::isLocale('ru'))
-                        <h1>Официальное приложение доступно в </h1>
+                        <h1>Скачай наше приложение</h1>
                         <div class="grid_slider">
-                        <h1 style="text-align: left; padding-top:20px;"> Google play </h1>
-                            <div class="google_play">
-                            <img src="assets/img/qr-codegoogle.gif" alt="Google play" >
+                            <div class="google_play" style="margin-top: 45px;">
+                            <a href="https://play.google.com/store/apps/details?id=com.eighttop.us"><img src="assets/img/qr-codegoogle.gif" alt="Google play" ></a>
                             </div>
+                        <div>
+                        <div class="google_play" style="margin-top: 45px;">
+                            <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/qr-code.gif" alt="App Store" ></a>
+                            </div>
+                        </div>
                             
-                            <h1 style="text-align: left; padding-top:20px;"> App Store</h1>
                             <div class="google_play">
-                            <img src="assets/img/qr-code.gif" alt="App Store">
+                            <a href="https://play.google.com/store/apps/details?id=com.eighttop.us"><img src="assets/img/ru_badge_web_generic.png" alt="App Store"></a>
+                            </div>
+                            <div>
+                            <div class="google_play">
+                            <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/Download_on_the_App_Store_Badge_RU_RGB_blk_100317.svg" alt="Google play" style="padding: 10px;"></a>
+                            </div>
                             </div>
                             </div>
                     @else
-                    <h1>MOST FAVORABLE PRICES FOR TOURS AND HOTELS, <br> AND SAME ALL THINGS FOR TRAVELING</h1>
+                    <h1>Download our app</h1>
+                        <div class="grid_slider">
+                            <div class="google_play" style="margin-top: 45px;">
+                            <a href="https://play.google.com/store/apps/details?id=com.eighttop.us"><img src="assets/img/qr-codegoogle.gif" alt="Google play" ></a>
+                            </div>
+                        <div>
+                        <div class="google_play" style="margin-top: 45px;">
+                            <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/qr-code.gif" alt="App Store" ></a>
+                            </div>
+                        </div>
+                            
+                            <div class="google_play">
+                            <a href="https://play.google.com/store/apps/details?id=com.eighttop.us"><img src="assets/img/en_badge_web_generic.png" alt="App Store"></a>
+                            </div>
+                            <div>
+                            <div class="google_play">
+                            <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/badge-download-on-the-app-store.svg" alt="Google play" style="padding: 10px;"></a>
+                            </div>
+                            </div>
+                            </div>
                     @endif
                     </div>
                 </div>
