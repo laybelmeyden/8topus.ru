@@ -53,8 +53,8 @@
 }
 
 .google_play {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 
 .grid_slider {
@@ -88,6 +88,8 @@
 @media screen and (max-width:992px) {
     .google_play {
         padding: 10px;
+        width: 150px;
+        height: 150px;
     }
     .one_hidden {
         display: none;

@@ -79,7 +79,7 @@
                     @else
                     <h1>Download our app</h1>
                         <div class="grid_slider">
-                            <div class="google_play" style="margin-top: 45px;">
+                            <div class="google_play" style="margin-top: 45px; margin-right: 20px;">
                             <a href="https://play.google.com/store/apps/details?id=com.eighttop.us"><img src="assets/img/qr-codegoogle.gif" alt="Google play" ></a>
                             </div>
                         <div>
@@ -201,7 +201,7 @@
                         <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><i class="fas fa-map-signs"></i><br>{{ __('text.text_a8') }}</div>
                         <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><i class="fas fa-ship fnt40" aria-hidden="true"></i><br>{{ __('text.text_a9') }}</div>
                         <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><i class="fas fa-anchor fnt40" aria-hidden="true"></i><br>{{ __('text.text_a10') }}</div>
-                        <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><i class="far fa-address-card"></i><br>{{ __('text.text_a11') }}</div>
+                        <div class="search_tab d-flex flex-row align-items-center justify-content-lg-center justify-content-start"><i class="fas fa fa-car fnt40"></i><br>{{ __('text.text_a11') }}</div>
                     </div>
                 </div>
 
@@ -260,10 +260,8 @@
                     <script src="//c92.travelpayouts.com/content?promo_id=3492&shmarker=219987" charset="utf-8"></script>
                 </div>
                 <!-- Визы -->
-                <div class="search_panel" style=" justify-content: center;">
-                    <div class="button home_slider_button" style="    z-index: 99;">
-                        <div class="button_bcg"></div><a href="http://yanatom.visaglobal.promotionalurl.com/zakaz">{{ __('text.text_a14') }}</a>
-                    </div>
+                <div class="search_panel" style=" justify-content: center; overflow-y: scroll;">
+                <script src="https://c52.travelpayouts.com/content?promo_id=1757&shmarker=219987" charset="utf-8" async="true"></script> 
                 </div>
 
 

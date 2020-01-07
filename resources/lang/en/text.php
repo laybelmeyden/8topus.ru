@@ -20,7 +20,7 @@ return [
     'text_a8' => 'Excursions',
     'text_a9' => 'Cruises',
     'text_a10' => 'Yacht Charter',
-    'text_a11' => 'Visas',
+    'text_a11' => 'Car rental',
     'text_a12' => 'Our partners',
     'text_a13' => 'The largest ticket offices, booking agencies, tour operators, railway and bus carriers',
     'text_a14' => 'Select and apply for a visa',
