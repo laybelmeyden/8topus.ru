@@ -72,7 +72,7 @@
                             </div>
                             <div>
                                 <div class="google_play">
-                                    <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/Download_on_the_App_Store_Badge_RU_RGB_blk_100317.svg" alt="Google play" style="padding: 10px;"></a>
+                                    <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/Download_on_the_App_Store_Badge_RU_RGB_blk_100317.png" alt="Google play"></a>
                                 </div>
                             </div>
                         </div>
@@ -93,7 +93,7 @@
                             </div>
                             <div>
                                 <div class="google_play">
-                                    <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/badge-download-on-the-app-store.svg" alt="Google play" style="padding: 10px;"></a>
+                                    <a href="https://apps.apple.com/ru/app/8top-us/id1475883367"><img src="assets/img/badge-download-on-the-app-store.png" alt="Google play"></a>
                                 </div>
                             </div>
                         </div>
